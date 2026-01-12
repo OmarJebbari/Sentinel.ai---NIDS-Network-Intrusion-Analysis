@@ -62,17 +62,17 @@ const TitlePage = () => (
       </div>
     </div>
     <div className="space-y-4">
-      <h1 className="text-8xl font-black text-white tracking-tighter uppercase leading-none font-mono hover:tracking-widest transition-all duration-500 cursor-default">
-        Sentinel<span className="text-green-500 animate-pulse">.ai</span>
-      </h1>
+      <h1 className="text-8xl font-black text-white tracking-tighter uppercase leading-none font-mono hover:tracking-widest transition-all duration-500 cursor-default">Sentinel<span className="text-green-500 animate-pulse">.ai</span></h1>
       <div className="text-xl text-green-500/80 font-bold tracking-[0.5em] uppercase font-mono border-y border-green-500/20 py-2 inline-block">Advanced NIDS Laboratory</div>
       
-      {/* FIXED SECTION: Using strings to prevent JSX parsing errors */}
-      <p className="text-lg text-[#8b949e] max-w-2xl mx-auto font-mono leading-relaxed mt-4">
-        {"> INITIALIZING UNSW-NB15 PROTOCOLS..."}<br/>
-        {"> LOADING NEURAL WEIGHTS..."}<br/>
-        {"> SYSTEM STATUS: "}<span className="text-green-500 animate-pulse">ONLINE</span>
-      </p>
+      {/* BULLETPROOF TEXT SECTION */}
+      <div className="text-lg text-[#8b949e] max-w-2xl mx-auto font-mono leading-relaxed mt-4">
+        <div dangerouslySetInnerHTML={{ __html: `
+          &gt; INITIALIZING UNSW-NB15 PROTOCOLS...<br/>
+          &gt; LOADING NEURAL WEIGHTS...<br/>
+          &gt; SYSTEM STATUS: <span class="text-green-500 animate-pulse">ONLINE</span>
+        `}} />
+      </div>
     </div>
 
     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12">
@@ -108,6 +108,7 @@ const App: React.FC = () => {
 
   return (
     <div className="flex h-screen bg-black text-[#e5e7eb] font-sans overflow-hidden selection:bg-green-500 selection:text-black">
+      
       {/* Activity Bar */}
       <div className="w-16 bg-[#050505] border-r border-[#1f2937] flex flex-col items-center py-6 space-y-8 shrink-0 z-20">
         <div className="text-green-500 p-2 border-l-2 border-green-500 bg-green-500/10">
@@ -115,15 +116,19 @@ const App: React.FC = () => {
         </div>
       </div>
 
-      {/* Explorer */}
+      {/* Explorer Sidebar */}
       <aside className="w-72 bg-[#050505] border-r border-[#1f2937] flex flex-col shrink-0 font-mono z-20">
-        <div className="p-4 flex justify-between items-center border-b border-[#1f2937]">
-          <h2 className="text-[10px] font-black text-green-500 uppercase tracking-widest">ROOT DIRECTORY</h2>
+        <div className="p-4 flex justify-between items-center bg-[#050505] border-b border-[#1f2937]">
+          <h2 className="text-[10px] font-black text-green-500 uppercase tracking-widest animate-pulse">ROOT DIRECTORY</h2>
+          <span className="text-[10px] text-[#4b5563]">./src</span>
         </div>
         <div className="flex-1 overflow-y-auto pt-2 custom-scrollbar">
           {REPORT_STRUCTURE.map(group => (
             <div key={group.id} className="mb-1">
-              <button onClick={() => toggleFolder(group.id)} className="w-full flex items-center px-4 py-1.5 text-[11px] font-bold text-[#9ca3af] hover:bg-[#111]">
+              <button 
+                onClick={() => toggleFolder(group.id)}
+                className="w-full flex items-center px-4 py-1.5 text-[11px] font-bold text-[#9ca3af] hover:bg-[#111] transition-colors"
+              >
                 <span className="mr-1">{ICONS.chevron(openFolders.includes(group.id))}</span>
                 <span className="mr-2 text-yellow-600">{ICONS.folder}</span>
                 <span className="truncate">{group.title.toUpperCase()}</span>
@@ -131,8 +136,14 @@ const App: React.FC = () => {
               {openFolders.includes(group.id) && (
                 <div className="ml-4 border-l border-[#1f2937] my-1">
                   {group.children.map(child => (
-                    <button key={child.id} onClick={() => setActiveTab(child.id)} className={`w-full flex items-center px-4 py-1 text-[11px] ${activeTab === child.id ? 'bg-green-900/20 text-green-400 border-r-2 border-green-500' : 'text-[#6b7280] hover:bg-[#111]'}`}>
-                      <span className="mr-2 opacity-70">{child.icon === 'code' ? ICONS.code : ICONS.file}</span>
+                    <button
+                      key={child.id}
+                      onClick={() => setActiveTab(child.id)}
+                      className={`w-full flex items-center px-4 py-1 text-[11px] transition-all ${
+                        activeTab === child.id ? 'bg-green-900/20 text-green-400 border-r-2 border-green-500' : 'text-[#6b7280] hover:bg-[#111]'
+                      }`}
+                    >
+                      <span className="mr-2 shrink-0 opacity-70">{child.icon === 'code' ? ICONS.code : ICONS.file}</span>
                       <span className="truncate">{child.title}</span>
                     </button>
                   ))}
@@ -143,7 +154,7 @@ const App: React.FC = () => {
         </div>
       </aside>
 
-      {/* Main Content */}
+      {/* Main Document Panel */}
       <main className="flex-1 flex flex-col bg-[#000] min-w-0 relative">
         <div className="pointer-events-none fixed inset-0 z-0" style={{ background: `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(34, 197, 94, 0.08), transparent 40%)` }} />
         
