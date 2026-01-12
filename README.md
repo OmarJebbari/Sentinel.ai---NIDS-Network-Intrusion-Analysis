@@ -28,26 +28,23 @@
 
 ## 📊 CORE ANALYTICS ENGINE
 This project evaluates multiple supervised and unsupervised models to find the optimal balance between detection speed and accuracy:
-- [cite_start]**SVM (Support Vector Machine):** Achieved a high **Precision of 0.9851** for attack identification[cite: 60].
-- [cite_start]**Decision Trees:** Tuned via GridSearchCV to a **max_depth of 12** for interpretable rule sets[cite: 83].
-- [cite_start]**Naive Bayes:** Probabilistic analysis used to generate ROC curves and feature distributions[cite: 104, 105].
-- [cite_start]**DBSCAN & K-Means:** Unsupervised clustering to detect zero-day anomalies and data structures[cite: 108, 123].
+- **SVM (Support Vector Machine):** Achieved a high **Precision of 0.9851** for attack identification[cite: 60].
+- **Decision Trees:** Tuned via GridSearchCV to a **max_depth of 12** for interpretable rule sets[cite: 83].
+- **Naive Bayes:** Probabilistic analysis used to generate ROC curves and feature distributions[cite: 104, 105].
+- **DBSCAN & K-Means:** Unsupervised clustering to detect zero-day anomalies and data structures[cite: 108, 123].
 
 ---
 
 ## 👥 THE OPERATIVES
-* **Jebbari Omar** — *Lead Architect* [cite: 1]
-* [cite_start]**Oulad Dahman Zainab** — *Data Analyst* [cite: 1]
-* [cite_start]**Ougrine Rokaya** — *Security Specialist* [cite: 1]
-* **Ibnsalah Dirar** — *System Engineer* [cite: 1]
-
-**Supervised by:** `Prof. Anass Belcaid` [cite: 1]
+* **Jebbari Omar**  
+* **Oulad Dahman Zainab** 
+* **Ougrine Rokaya**  
+* **Ibnsalah Dirar** 
 
 ---
 
 ## 📂 REPOSITORY ARCHIVE
 * 📓 `analysis_notebook.ipynb` — Full Jupyter Research & Model Training
-* [cite_start]📄 `dataminingreport.pdf` — Complete 133-Page Technical Documentation [cite: 1]
 * 📁 `src/` — Website Logic & UI Components
 
 <p align="center">
