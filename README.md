@@ -1,48 +1,54 @@
-# <p align="center">🛡️ SENTINEL.AI: CYBERNETIC ANALYTICS</p>
+# <p align="center">🛡️ SENTINEL.AI: NETWORK INTRUSION ANALYSIS</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/SECURITY-OFFENSIVE-red?style=for-the-badge&logo=kali-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-INTELLIGENCE-blue?style=for-the-badge&logo=google-gemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/STATUS-ENCRYPTED-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SECURITY-NIDS-red?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/ALGORITHMS-SVM%20|%20DT%20|%20NB-blue?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/DATASET-UNSW--NB15-green?style=for-the-badge" />
 </p>
 
 ---
 
-## ⚡ ACCESS INTERFACE
-> **Warning:** Unauthorized access to network logs is prohibited. 
-> ### 🌐 [DECRYPT LIVE AI REPORT](PASTE_YOUR_VERCEL_LINK_HERE)
+## ⚡ LIVE THREAT INTERFACE
+> **Project Directive:** Interactive visualization of network traffic security patterns.
+> ### 🌐 [ACCESS LIVE WEBSITE REPORT](PASTE_YOUR_VERCEL_LINK_HERE)
 
 ---
 
 ## 🌑 PROJECT MANIFEST
-The streets of the digital frontier are saturated with anomalies. **Sentinel.ai** is a Next-Gen Network Intrusion Detection System (NIDS) designed to neutralize threats within the **UNSW-NB15** ecosystem. Utilizing advanced data mining, we identify 9 distinct categories of cyber-attacks with lethal precision.
+**Sentinel.ai** is an advanced Network Intrusion Detection System built using modern data mining lifecycles. We analyzed over 250,000 instances from the **UNSW-NB15** dataset to distinguish between normal activity and 9 distinct categories of cyber-attacks.
 
-### 🛠️ ARCHITECTURAL STACKS
-| Component | Technology |
+### 🛠️ TECHNICAL STACK
+| Category | Implementation |
 | :--- | :--- |
-| **Data Logic** | Python, Pandas, Scikit-Learn |
-| **Deployment** | Vercel |
-| **Models** | SVM (F1: 0.87), Decision Trees, DBSCAN |
+| **Language** | Python (Pandas, NumPy) |
+| **ML Framework** | Scikit-Learn |
+| **Visualization** | Seaborn, Matplotlib |
+| **Preprocessing** | StandardScaling, One-Hot Encoding |
 
 ---
 
-## 🧠 AI ENGINEERING & FUTURE-PROOFING
-- **StandardScaling:** 199 engineered features normalized for maximum accuracy.
-- **Anomaly Detection:** DBSCAN density analysis ($\epsilon=1.2767$) to detect zero-day exploits.
-- **Visual Intelligence:** Interactive React interface for real-time threat telemetry.
+## 📊 CORE ANALYTICS ENGINE
+This project evaluates multiple supervised and unsupervised models to find the optimal balance between detection speed and accuracy:
+- [cite_start]**SVM (Support Vector Machine):** Achieved a high **Precision of 0.9851** for attack identification[cite: 60].
+- [cite_start]**Decision Trees:** Tuned via GridSearchCV to a **max_depth of 12** for interpretable rule sets[cite: 83].
+- [cite_start]**Naive Bayes:** Probabilistic analysis used to generate ROC curves and feature distributions[cite: 104, 105].
+- [cite_start]**DBSCAN & K-Means:** Unsupervised clustering to detect zero-day anomalies and data structures[cite: 108, 123].
 
 ---
 
 ## 👥 THE OPERATIVES
-* **Jebbari Omar** 
-* **Oulad Dahman Zainab** 
-* **Ougrine Rokaya**
-* **Ibnsalah Dirar** 
+* **Jebbari Omar** — *Lead Architect* [cite: 1]
+* [cite_start]**Oulad Dahman Zainab** — *Data Analyst* [cite: 1]
+* [cite_start]**Ougrine Rokaya** — *Security Specialist* [cite: 1]
+* **Ibnsalah Dirar** — *System Engineer* [cite: 1]
+
+**Supervised by:** `Prof. Anass Belcaid` [cite: 1]
 
 ---
 
 ## 📂 REPOSITORY ARCHIVE
-* 📁 `src/` — React/Vite Source Code
-* 📓 `analysis_notebook.ipynb` — Jupyter Research & Model Training
+* 📓 `analysis_notebook.ipynb` — Full Jupyter Research & Model Training
+* [cite_start]📄 `dataminingreport.pdf` — Complete 133-Page Technical Documentation [cite: 1]
+* 📁 `src/` — Website Logic & UI Components
 
 <p align="center">
   <br />
