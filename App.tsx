@@ -66,9 +66,9 @@ const TitlePage = () => (
       <h1 className="text-8xl font-black text-white tracking-tighter uppercase leading-none font-mono hover:tracking-widest transition-all duration-500 cursor-default">Sentinel<span className="text-green-500 animate-pulse">.ai</span></h1>
       <div className="text-xl text-green-500/80 font-bold tracking-[0.5em] uppercase font-mono border-y border-green-500/20 py-2 inline-block">Advanced NIDS Laboratory</div>
       <p className="text-lg text-[#8b949e] max-w-2xl mx-auto font-mono leading-relaxed mt-4">
-        > INITIALIZING UNSW-NB15 PROTOCOLS...<br/>
-        > LOADING NEURAL WEIGHTS...<br/>
-        > SYSTEM STATUS: <span className="text-green-500 animate-pulse">ONLINE</span>
+         &gt INITIALIZING UNSW-NB15 PROTOCOLS...<br/>
+         &gt LOADING NEURAL WEIGHTS...<br/>
+         &gt; SYSTEM STATUS: <span className="text-green-500 animate-pulse">ONLINE</span>
       </p>
     </div>
     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12">
