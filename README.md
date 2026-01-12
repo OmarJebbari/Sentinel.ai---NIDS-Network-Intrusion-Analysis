@@ -1,19 +1,54 @@
-# 🛡️ Sentinel.ai: Network Intrusion Detection
-**An Intelligent NIDS Analysis Platform powered by AI Studio**
-
-## 🌐 [LIVE INTERACTIVE REPORT](PASTE_YOUR_VERCEL_LINK_HERE)
-
-## 📊 Project Overview
-This project focuses on identifying network threats using the **UNSW-NB15 dataset**. By combining traditional Machine Learning (SVM, Decision Trees) with an AI-driven interactive interface, we provide a deep dive into network security patterns.
-
-### 🚀 Features
-* **Interactive AI Analysis:** Real-time insights into attack categories.
-* **Model Performance:** Comparison of Supervised vs. Unsupervised models.
-* **Data Mining:** Full preprocessing of 82,332 training samples.
-
-### 👥 The Team
-* **Omar Jebbari** & The Project Sentinel Team
-* **Supervised by:** Prof. Anass Belcaid
+# <p align="center">🛡️ SENTINEL.AI: CYBERNETIC ANALYTICS</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/SECURITY-OFFENSIVE-red?style=for-the-badge&logo=kali-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-INTELLIGENCE-blue?style=for-the-badge&logo=google-gemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-ENCRYPTED-green?style=for-the-badge" />
+</p>
 
 ---
-*Check the `docs` folder for the full 133-page research report and Jupyter Notebook.*
+
+## ⚡ ACCESS INTERFACE
+> **Warning:** Unauthorized access to network logs is prohibited. 
+> ### 🌐 [DECRYPT LIVE AI REPORT](PASTE_YOUR_VERCEL_LINK_HERE)
+
+---
+
+## 🌑 PROJECT MANIFEST
+The streets of the digital frontier are saturated with anomalies. **Sentinel.ai** is a Next-Gen Network Intrusion Detection System (NIDS) designed to neutralize threats within the **UNSW-NB15** ecosystem. Utilizing advanced data mining, we identify 9 distinct categories of cyber-attacks with lethal precision.
+
+### 🛠️ ARCHITECTURAL STACKS
+| Component | Technology |
+| :--- | :--- |
+| **Neural Engine** | Google Gemini API (AI Studio) |
+| **Data Logic** | Python, Pandas, Scikit-Learn |
+| **Deployment** | Vercel |
+| **Models** | SVM (F1: 0.87), Decision Trees, DBSCAN |
+
+---
+
+## 🧠 AI ENGINEERING & FUTURE-PROOFING
+- **StandardScaling:** 199 engineered features normalized for maximum accuracy.
+- **Anomaly Detection:** DBSCAN density analysis ($\epsilon=1.2767$) to detect zero-day exploits.
+- **Visual Intelligence:** Interactive React interface for real-time threat telemetry.
+
+---
+
+## 👥 THE OPERATIVES
+* **Jebbari Omar** — *Lead Architect*
+* **Oulad Dahman Zainab** — *Data Analyst*
+* **Ougrine Rokaya** — *Security Specialist*
+* **Ibnsalah Dirar** — *System Engineer*
+
+**Supervised by:** `Prof. Anass Belcaid`
+
+---
+
+## 📂 REPOSITORY ARCHIVE
+* 📁 `src/` — React/Vite Source Code
+* 📄 `PROJECT_SENTINEL_REPORT.pdf` — Full 133-Page Technical Documentation
+* 📓 `analysis_notebook.ipynb` — Jupyter Research & Model Training
+
+<p align="center">
+  <br />
+  <i>"Innovation is the only path to digital immunity."</i>
+</p>
