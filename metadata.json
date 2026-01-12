@@ -1,0 +1,5 @@
+{
+  "name": "Sentinel - Advanced NIDS Analysis",
+  "description": "A modern, interactive technical report and dashboard for Network Intrusion Detection Systems using UNSW-NB15 and NSL-KDD datasets. Features deep-dive EDA, machine learning classification, and unsupervised clustering visualization.",
+  "requestFramePermissions": []
+}
