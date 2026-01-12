@@ -19,7 +19,6 @@ The streets of the digital frontier are saturated with anomalies. **Sentinel.ai*
 ### 🛠️ ARCHITECTURAL STACKS
 | Component | Technology |
 | :--- | :--- |
-| **Neural Engine** | Google Gemini API (AI Studio) |
 | **Data Logic** | Python, Pandas, Scikit-Learn |
 | **Deployment** | Vercel |
 | **Models** | SVM (F1: 0.87), Decision Trees, DBSCAN |
@@ -34,18 +33,15 @@ The streets of the digital frontier are saturated with anomalies. **Sentinel.ai*
 ---
 
 ## 👥 THE OPERATIVES
-* **Jebbari Omar** — *Lead Architect*
-* **Oulad Dahman Zainab** — *Data Analyst*
-* **Ougrine Rokaya** — *Security Specialist*
-* **Ibnsalah Dirar** — *System Engineer*
-
-**Supervised by:** `Prof. Anass Belcaid`
+* **Jebbari Omar** 
+* **Oulad Dahman Zainab** 
+* **Ougrine Rokaya**
+* **Ibnsalah Dirar** 
 
 ---
 
 ## 📂 REPOSITORY ARCHIVE
 * 📁 `src/` — React/Vite Source Code
-* 📄 `PROJECT_SENTINEL_REPORT.pdf` — Full 133-Page Technical Documentation
 * 📓 `analysis_notebook.ipynb` — Jupyter Research & Model Training
 
 <p align="center">
