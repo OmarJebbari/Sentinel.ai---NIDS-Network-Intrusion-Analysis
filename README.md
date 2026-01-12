@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛡️ Sentinel.ai: Network Intrusion Detection
+**An Intelligent NIDS Analysis Platform powered by AI Studio**
 
-# Run and deploy your AI Studio app
+## 🌐 [LIVE INTERACTIVE REPORT](PASTE_YOUR_VERCEL_LINK_HERE)
 
-This contains everything you need to run your app locally.
+## 📊 Project Overview
+This project focuses on identifying network threats using the **UNSW-NB15 dataset**. By combining traditional Machine Learning (SVM, Decision Trees) with an AI-driven interactive interface, we provide a deep dive into network security patterns.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1T8QQUh_IgQIkSR_bZKtCtLDEkNWLYEbo
+### 🚀 Features
+* **Interactive AI Analysis:** Real-time insights into attack categories.
+* **Model Performance:** Comparison of Supervised vs. Unsupervised models.
+* **Data Mining:** Full preprocessing of 82,332 training samples.
 
-## Run Locally
+### 👥 The Team
+* **Omar Jebbari** & The Project Sentinel Team
+* **Supervised by:** Prof. Anass Belcaid
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+*Check the `docs` folder for the full 133-page research report and Jupyter Notebook.*
